@@ -1,0 +1,15 @@
+{
+  "nom_projet": "Bâtiment R+2 - Bureau d'études (exemple)",
+  "description": "Projet d'exemple pour la séance 6. Remplacez niveaux/poteaux par vos propres données issues des séances 1 à 3.",
+  "niveaux": [
+    {"nom": "RDC",               "hauteur_m": 3.0, "charge_permanente_kN_m2": 5.5, "charge_exploitation_kN_m2": 2.5},
+    {"nom": "Etage 1",           "hauteur_m": 3.0, "charge_permanente_kN_m2": 5.0, "charge_exploitation_kN_m2": 1.5},
+    {"nom": "Etage 2 (toiture)", "hauteur_m": 3.0, "charge_permanente_kN_m2": 4.5, "charge_exploitation_kN_m2": 1.0}
+  ],
+  "poteaux": [
+    {"type": "angle",   "surface_influence_m2": 6.0,  "section_cm": 20},
+    {"type": "rive",    "surface_influence_m2": 11.3, "section_cm": 20},
+    {"type": "central", "surface_influence_m2": 22.6, "section_cm": 25}
+  ],
+  "resultats": {}
+}

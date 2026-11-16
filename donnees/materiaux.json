@@ -1,0 +1,19 @@
+{
+  "beton": {
+    "fc28_MPa": 25,
+    "poids_volumique_kN_m3": 25,
+    "contrainte_admissible_predim_MPa": 10
+  },
+  "sol": {
+    "contrainte_admissible_kPa": 200
+  },
+  "semelle": {
+    "hauteur_remblai_m": 0.5,
+    "poids_volumique_remblai_kN_m3": 25,
+    "terme_correctif_kN_m2": 12.5
+  },
+  "acier": {
+    "ratio_kg_par_m3_beton": 100,
+    "prix_unitaire_fcfa_kg": 850
+  }
+}

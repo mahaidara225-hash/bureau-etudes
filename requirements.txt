@@ -1,0 +1,6 @@
+# Aucune dépendance externe n'est requise pour exécuter l'application :
+# tout le code de src/ repose uniquement sur la bibliothèque standard
+# (json, math, csv, pathlib, dataclasses).
+#
+# pytest est utilisé uniquement pour lancer les tests automatisés.
+pytest>=7.0
